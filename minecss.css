@@ -1,0 +1,23 @@
+		#game-board {
+			display: grid;
+			grid-template-columns: repeat(10, 30px);
+			grid-template-rows: repeat(10, 30px);
+		}
+
+		.cell {
+			border: 1px solid #000000;
+			background-color: #5a5a5a;
+			font-size: 20px;
+			text-align: center;
+			line-height: 30px;
+			cursor: pointer;
+		}
+
+		.cell.clicked {
+			background-color: #5eff00;
+			cursor: default;
+		}
+
+		.cell.mine {
+			background-color: #f00;
+		}

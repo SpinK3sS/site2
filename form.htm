@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Language" content="fr">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Centered Form</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      form {
+        width: 80%;
+        max-width: 600px;
+        padding: 20px;
+        background-color:transparent;
+      }
+
+      input,
+      textarea,
+      select {
+        font-family: VT323;
+        font-size: 14pt;
+      }
+
+      button {
+        width: 64px;
+        height: 25px;
+        font-family: VT323;
+        font-size: 14pt;
+      }
+    </style>
+  </head>
+  <body background="s2.png" style="height : auto;width:auto ;">
+    
+    <div class="container">
+      <form method="POST" action="Untitled-1.html">
+        <br><br><br><br>
+		<font face="VT323">
+          <font size="5">Name</font>
+          <input type="text" name="T1" size="70">
+        </font>
+        <br>
+        <font face="VT323">
+          <font size="5">Email</font>
+          <input type="text" name="T2" size="70">
+        </font>
+        <br>
+        <font face="VT323">
+          <font size="5">Adress</font>
+          <input type="text" name="T3" size="70">
+        </font>
+        <br>
+		<font face="VT323">
+			<font size="5">Phone Number</font>
+			<input type="text" name="T2" size="70">
+		  </font>
+		  <br><br>
+        <font face="VT323">
+          <font size="5">Choose Departement</font>
+          <select size="1" name="D1">
+            <option>Select</option>
+            <option>Event Managment</option>
+            <option>Developpement Team</option>
+            <option>Sponsoring</option>
+            <option>Digital Marketing</option>
+            <option>Human Ressources</option>
+          </select>
+        </font>
+        <br><br>
+        <font face="VT323" size="5">
+          Tell Us About Yourself
+        </font>
+        <br>
+        <font face="VT323" size="5">
+			<textarea rows="15" name="S1" cols="99" style="width: 599px; height: 146px;"></textarea>
+        </font>
+        <br>
+        <center><input type="submit" value="Submit" name="B1">
+        <a href="Untitled-1.html">
+          <button>Back</button>
+        </a></center>
+		</form>   
+	</div>
+	
+    <script src="script.js"></script>
+  </body>
+</html>

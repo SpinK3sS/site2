@@ -1,0 +1,8 @@
+.transparent-link {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
